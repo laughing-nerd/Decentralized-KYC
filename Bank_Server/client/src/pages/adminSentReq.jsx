@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/adminSentReq.css";
 import { AiOutlineDoubleRight } from "react-icons/ai";
+import { Link } from "react-router-dom";
+
 
 function AdminSentReq() {
   return (

@@ -5,13 +5,16 @@ import Demo from "./components/Demo";
 import Footer from "./components/Footer";
 import Navbar from "./components/navbar/navbar";
 import AdminSentReq from "./pages/adminSentReq";
+import Dashboard from "./pages/dashboard";
+import Routing from "../routes";
 
 function App() {
   return (
-      <div className="App">
-        {/* <Navbar /> */}
-        <AdminSentReq />
-      </div>
+    <div className="App">
+        <Dashboard />
+        {/* <AdminSentReq /> */}
+      
+    </div>
   );
 }
 
